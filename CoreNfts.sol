@@ -1238,6 +1238,10 @@ contract CoreNFTs is ERC721, ERC721URIStorage, Ownable {
         Maxsupply = newSupply;
     }
 
+    function SetCost(uint256 newCost) public onlyOwner {
+        Cost = newCost;
+    }
+
     function SetURI(string memory uri) public onlyOwner {
         URI = uri;
     }
