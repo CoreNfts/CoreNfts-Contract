@@ -1,5 +1,4 @@
 
-// File: github/5star-rep/CoreNFTs/CoreNFTscontract.sol
 
 
 // File: @openzeppelin/contracts@4.7.3/utils/Strings.sol
